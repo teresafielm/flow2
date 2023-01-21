@@ -14,6 +14,6 @@ var date = new Date(msg.payload);
 
 msg.payload = date.toString();
 
-// Regresa el mensaje para que se envíe al sigueinte nodo
+// Regresa el mensaje para que se envíe al sigueinte nodo ()
 
 return msg;
